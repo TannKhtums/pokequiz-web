@@ -1,0 +1,61 @@
+
+.body {
+  min-height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  min-height: calc(100vh - 100px);
+}
+
+.main {
+  display: block;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+}
+
+.level-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.random-generator {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+}
+
+p {
+  margin: 10px auto;
+}
+
+form {
+  margin: auto;
+}
+
+.level-color-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 900px) {
+  .content {
+    background-color: yellow;
+  }
+
+  .main-container {
+    display: block;
+  }
+
+  .sidenav {
+    display: flex;
+  }
+}
